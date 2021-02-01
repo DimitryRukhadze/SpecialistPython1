@@ -28,4 +28,11 @@
 # 19 189.81 Rub.
 # 20 199.80 Rub.
 
-# TODO: your code here
+price = float(input('Enter price: '))
+multi_price = 0.0
+
+i = 1
+while i <= 20:
+    multi_price = round((price * i), 2)
+    print (i, multi_price, 'Rub')
+    i += 1
